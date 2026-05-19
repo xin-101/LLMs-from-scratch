@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+dist/
+build/
+*.egg-info/
+
+# Large model checkpoint data files (use Git LFS if needed)
+*.ckpt.data-*
+*.ckpt.meta
+
+# PyTorch model files (use Git LFS if needed)
+*.pth
+
+# Claude Code
+.claude/
